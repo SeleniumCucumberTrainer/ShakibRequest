@@ -21,9 +21,10 @@ public class AppTest {
 		
 		System.out.println("Hi Java Maven");
 		
-		//ChromeOptions chromeOptions = new ChromeOptions();
+		ChromeOptions options = new ChromeOptions();
+options.addArguments("--no-sandbox");
 		WebDriverManager.chromedriver().setup();
-		WebDriver driver = new ChromeDriver();
+		WebDriver driver = new ChromeDriver(options);
 		
 		driver.manage().window().maximize();
 		
