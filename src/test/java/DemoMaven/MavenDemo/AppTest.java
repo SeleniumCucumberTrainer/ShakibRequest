@@ -13,7 +13,7 @@ public class AppTest {
 		//String path = System.getProperty("user.dir");
 		//home/ubuntu/akhilesh/ShakibRequest
 		//System.setProperty("webdriver.chrome.driver", "Test\\MavenDemo\\Driver\\chromedriver.exe");
-	     System.setProperty("webdriver.chrome.driver", "//home//ubuntu//akhilesh//ShakibRequest//Driver//chromedriver.exe");
+	     System.setProperty("webdriver.chrome.driver", "home\\ubuntu\\akhilesh\\ShakibRequest\\Driver\\chromedriver.exe");
 		
 		System.out.println("Hi Java Maven");
 		
