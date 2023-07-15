@@ -15,7 +15,7 @@ public class AppTest {
 		//home/ubuntu/akhilesh/ShakibRequest
 		///src/test/java/DemoMaven/MavenDemo/AppTest
 		//System.setProperty("webdriver.chrome.driver", "Test\\MavenDemo\\Driver\\chromedriver.exe");
-	     System.setProperty("webdriver.chrome.driver", "\\Driver\\chromedriver.exe");
+	     System.setProperty("webdriver.chrome.driver", "//Driver//chromedriver.exe");
 		
 		System.out.println("Hi Java Maven");
 		
