@@ -10,7 +10,8 @@ public class AppTest {
 	@Test
 	public void test(){
 
-		//String path = System.getProperty("user.dir");
+		String path = System.getProperty("user.dir");
+		System.out.println(path);
 		//home/ubuntu/akhilesh/ShakibRequest
 		//System.setProperty("webdriver.chrome.driver", "Test\\MavenDemo\\Driver\\chromedriver.exe");
 	     System.setProperty("webdriver.chrome.driver", "home\\ubuntu\\akhilesh\\ShakibRequest\\Driver\\chromedriver.exe");
