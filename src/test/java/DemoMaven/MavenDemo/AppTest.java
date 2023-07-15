@@ -9,8 +9,10 @@ public class AppTest {
 	
 	@Test
 	public void test(){
+
+		String path = System.getProperty("user.dir");
 		
-		System.setProperty("webdriver.chrome.driver", "C:\\Users\\PC2\\Desktop\\Test\\MavenDemo\\Driver\\chromedriver.exe");
+		System.setProperty("webdriver.chrome.driver", path+"\\Driver\\chromedriver.exe");
 		
 		System.out.println("Hi Java Maven");
 		
