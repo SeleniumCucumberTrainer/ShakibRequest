@@ -1,4 +1,4 @@
-name: My Automation Pipeline
+name: ParallelJob Pipeline
 on: workflow_dispatch
 jobs:
    first-Testing-job:
