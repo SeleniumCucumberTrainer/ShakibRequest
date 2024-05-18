@@ -1,13 +1,10 @@
 name: My Automation Pipeline
 on: workflow_dispatch
 jobs:
-   first-job:
+   first-Testing-job:
       runs-on: ubuntu-latest
       steps:
-         - name: Print greeting
-           run: echo "Hello Everybody"
-         - name: Say Good Bye
-           run: |
-              echo "Bye Bye1"
-              echo "Bye Bye2"
-              echo "Bye Bye3"
+         - name: Get the Code downloaded from github to runner machine
+           uses: actions/checkout@v4
+         - name: run test
+           run: mvn clean test
