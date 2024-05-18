@@ -1,0 +1,11 @@
+name: MultipleTriggerPoint Pipeline
+on: [push, workflow_dispatch]
+jobs:
+   first-Testing-job:
+      runs-on: ubuntu-latest
+      steps:
+         - name: Get the Code downloaded from github to runner machine
+           uses: actions/checkout@v4
+         - name: run test
+           run: mvn clean test
+ 
