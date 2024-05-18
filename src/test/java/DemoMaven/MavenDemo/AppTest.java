@@ -22,7 +22,13 @@ public class AppTest {
 		System.out.println("Hi Java Maven");
 		
 		ChromeOptions options = new ChromeOptions();
-options.addArguments("--no-sandbox");
+        options.addArguments("--headless");
+        options.addArguments("--no-sandbox");
+        options.addArguments("--disable-dev-shm-usage");
+        options.addArguments("--disable-gpu");
+        options.addArguments("--remote-allow-origins=*");
+        WebDriver driver = new ChromeDriver(options);
+        
 		//WebDriverManager.chromedriver().setup();
 		WebDriver driver = new ChromeDriver(options);
 		
