@@ -23,7 +23,7 @@ public class AppTest {
 		
 		ChromeOptions options = new ChromeOptions();
 options.addArguments("--no-sandbox");
-		WebDriverManager.chromedriver().setup();
+		//WebDriverManager.chromedriver().setup();
 		WebDriver driver = new ChromeDriver(options);
 		
 		driver.manage().window().maximize();
