@@ -1,4 +1,4 @@
-name: Parallel Pipeline
+name: Squential Pipeline
 on: workflow_dispatch
 jobs:
    first-Testing-job:
