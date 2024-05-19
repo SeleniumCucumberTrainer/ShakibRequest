@@ -1,0 +1,10 @@
+name: MultipleTriggerPoint Pipeline
+on: workflow_dispatch
+jobs:
+   PrintGithubObject:
+      runs-on: ubuntu-latest
+      steps:
+         - name: GITHUB_CONTEXT
+           run: |
+              echo "${{toJSON(github)}}"
+              echo "RUNNER_CONTEXT ${{ toJson(runner) }}"
