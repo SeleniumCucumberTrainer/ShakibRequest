@@ -1,4 +1,4 @@
-name: MultipleTriggerPoint Pipeline
+name: PrintGithubObject Pipeline
 on: workflow_dispatch
 jobs:
    PrintGithubObject:
